@@ -20,8 +20,8 @@ This repository contains **Dockerfile** for [Docker](https://www.docker.com/)'s 
 
 #### Run `cpgonzal/docker-r` container
 
-    docker run --rm -d cpgonzal/docker-r
+    docker run -d cpgonzal/docker-r
 
 #### Run `cpgonzal/docker-r` container with persistent shared directories.
 
-    docker run --rm -d -v <log-dir>:/data -v <data-dir>:/libraries cpgonzal/docker-r
+    docker run -d -v <data-dir>:/data -v <libraries-dir>:/libraries cpgonzal/docker-r
