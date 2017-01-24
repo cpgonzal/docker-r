@@ -25,7 +25,3 @@ This repository contains **Dockerfile** for [Docker](https://www.docker.com/)'s 
 #### Run `cpgonzal/docker-data-volume` with persistent shared directories.
 
     docker run --rm -d -v <log-dir>:/data -v <data-dir>:/libraries cpgonzal/docker-r
-=======
-# docker-r
-R Dockerfile for trusted automated Docker builds. https://hub.docker.com/r/cpgonzal/docker-data-volume/ 
->>>>>>> ea0a54e076571b63a194f53f143380884b70baee
