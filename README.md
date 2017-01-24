@@ -18,10 +18,10 @@ This repository contains **Dockerfile** for [Docker](https://www.docker.com/)'s 
 
 ### Usage
 
-#### Run `docker-r`
+#### Run `cpgonzal/docker-r` container
 
     docker run --rm -d cpgonzal/docker-r
 
-#### Run `cpgonzal/docker-data-volume` with persistent shared directories.
+#### Run `cpgonzal/docker-r` container with persistent shared directories.
 
     docker run --rm -d -v <log-dir>:/data -v <data-dir>:/libraries cpgonzal/docker-r
